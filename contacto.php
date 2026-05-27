@@ -1,5 +1,5 @@
 <?php 
-// contacto.php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = strip_tags(trim($_POST["nombre"]));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!empty($nombre) && !empty($email) && !empty($mensaje) && filter_var($email, FILTER_VALIDATE_EMAIL)) {
         
-        $to = "torneoapertura2026@gmail.com"; // Cambia por tu email
+        $to = "torneoapertura2026@gmail.com";
         $subject = "Nuevo mensaje de $nombre - Torneo Apertura 2026";
         
         $body = "Nombre: $nombre\n";
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="zona">
     <div class="zona-titulo">📞 CONTACTO</div>
     <div class="contact-content">
-        <!-- ... tu contenido de contacto ... -->
+      
     </div>
 </div>
 
