@@ -21,7 +21,7 @@
         padding-bottom: 80px;
     }
 
-    /* HEADER */
+    
     .header {
         text-align: center;
         padding: 20px 10px;
@@ -39,7 +39,7 @@
         box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
 
-    /* CARDS Y CONTENEDORES */
+    
     .zona, .section {
         margin: 20px 15px;
         background: var(--card);
@@ -56,7 +56,7 @@
         font-size: 1.2em;
     }
 
-    /* TABLAS */
+    
     table {
         width: 100%;
         border-collapse: collapse;
@@ -85,7 +85,7 @@
         border: 1px solid #333;
     }
 
-    /* FIXTURE */
+   
     .partido {
         background: #222;
         margin: 12px 15px;
@@ -96,7 +96,7 @@
         justify-content: space-between;
     }
 
-    /* BOTONES */
+    
     .btn {
         background: var(--primary);
         color: white;
